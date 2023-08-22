@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Github User</string>
+    <string name="seach_user">Search User</string>
+    <string name="detail_user">Detail User</string>
+    <string name="following">Following</string>
+    <string name="followers">Followers</string>
+    <string name="repository">Repository</string>
+    <string name="settings">Setting</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="name">Muhammad Rais</string>
+    <string name="tab_text_1">Following</string>
+    <string name="tab_text_2">Followers</string>
+    <string name="favorite">Your Favorite</string>
+    <string name="loading">Loading...</string>
+    <string name="load_detail">Load detail...</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="username">\@username</string>
+    <string name="location">your location</string>
+    <string name="find_following">"Find following"</string>
+    <string name="find_followers">"Find followers"</string>
+    <string name="not_following_anyone">Not following anyone</string>
+    <string name="dark_mode" translatable="true">Dark Mode</string>
+
+</resources>
