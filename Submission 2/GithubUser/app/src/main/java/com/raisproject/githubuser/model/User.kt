@@ -16,28 +16,28 @@ data class User(
     @ColumnInfo("username")
     val username: String = "",
 
-    val name: String = "",
+    val name: String? = "",
 
     @field:SerializedName("avatar_url")
     @ColumnInfo("avatar")
-    val avatar: String = "",
+    val avatar: String? = "",
 
-    val url: String = "",
+    val url: String? = "",
 
-    val followers_url: String = "",
+    val followers_url: String? = "",
 
-    val following_url: String = "",
+    val following_url: String? = "",
 
     @field:SerializedName("public_repos")
     @ColumnInfo("repository")
-    val repository: Int = 0,
+    val repository: Int? = 0,
 
-    val followers: Int = 0,
+    val followers: Int? = 0,
 
-    val following: Int = 0,
+    val following: Int? = 0,
 
-    val location: String = "",
+    val location: String? = "",
 
     @ColumnInfo("isFavorite")
-    var isFavorite: Boolean = false
+    var isFavorite: Boolean? = false
 ) : Parcelable

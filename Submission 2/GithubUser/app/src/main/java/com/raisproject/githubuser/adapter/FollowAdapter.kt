@@ -22,7 +22,7 @@ class FollowAdapter : RecyclerView.Adapter<FollowAdapter.FollowViewHolder>() {
 
     inner class FollowViewHolder(val binding: UserItemBinding) : RecyclerView.ViewHolder(binding.root) {
         fun bind(user: User) {
-            binding.title.text = user.username
+            binding.title.text = user.username.capitalize()
             binding.subTitle.visibility = View.GONE
             Glide.with(itemView.context)
                 .load(user.avatar)

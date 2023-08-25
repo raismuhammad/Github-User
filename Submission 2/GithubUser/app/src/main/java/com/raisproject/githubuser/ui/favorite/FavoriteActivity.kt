@@ -51,7 +51,6 @@ class FavoriteActivity : AppCompatActivity() {
     private fun onSuccess(data: List<User>) {
         binding.progressBar.visibility = View.INVISIBLE
         binding.tvMessage.visibility = View.INVISIBLE
-        Log.d("TAG", "favorritttt: $data")
         favoriteAdapter.setFavoriteList(data)
     }
 
